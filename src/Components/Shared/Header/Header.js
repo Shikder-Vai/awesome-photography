@@ -4,8 +4,7 @@ import { Button, Container, Nav, Navbar} from "react-bootstrap";
 import { useAuthState } from "react-firebase-hooks/auth";
 import {Link} from "react-router-dom";
 import auth from "../../../firebase.init";
-import logo from "../../Images/logo.png";
-import '../../Shared/CustomCss/Custom.css'
+import '../../Shared/CustomCss/Custom.css';
 
 const Header = () => {
   const [user] =useAuthState(auth);
@@ -16,7 +15,7 @@ const Header = () => {
     <Navbar collapseOnSelect expand="lg"  className="light-color-background"  sticky="top">
     <Container>
     <Navbar.Brand as={Link} to="/">
-       <img src={logo} alt="" />
+      <h3>Awesome Photography</h3>
         </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
