@@ -5,7 +5,6 @@ import Service from '../../Home/Service/Service';
 import '../../../Shared/CustomCss/Custom.css';
 
 
-
 const Services = () => {
     const [services,setServices] =useState([])
     useEffect(() =>{
@@ -26,6 +25,9 @@ const Services = () => {
                 </Service>)
             }
            
+          </div>
+          <div className='d-flex justify-content-center py-5'>
+          <button>See All Servise</button>
           </div>
         </div>
     );

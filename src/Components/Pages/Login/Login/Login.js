@@ -84,7 +84,7 @@ const Login = () => {
       </Form>
       {errorMessage}
       <p className="text-center">
-        New to Mahbub Photography?{" "}
+        New to Awesome Photography?{" "}
         <Link
           to="/register"
           className="text-primary pe-auto text-decoration-none"

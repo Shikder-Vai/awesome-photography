@@ -15,7 +15,7 @@ const Header = () => {
     <Navbar collapseOnSelect expand="lg"  className="light-color-background"  sticky="top">
     <Container>
     <Navbar.Brand as={Link} to="/">
-      <h3>Awesome Photography</h3>
+      <h3>Awesome photography</h3>
         </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
@@ -24,7 +24,7 @@ const Header = () => {
       </Nav>
       <Nav className="fs-6 fw-bolder">
         <Nav.Link as={Link} to="/home" >HOME</Nav.Link>
-        <Nav.Link href="home#services">SERVICES</Nav.Link>
+        <Nav.Link as={Link} to="/home#services">SERVICES</Nav.Link>
         <Nav.Link as={Link} to="/checkout">CHECKOUT</Nav.Link>
         <Nav.Link as={Link} to="/blogs">BLOGS</Nav.Link>  
         <Nav.Link as={Link} to="/aboutMe" >ABOUT ME</Nav.Link>  
